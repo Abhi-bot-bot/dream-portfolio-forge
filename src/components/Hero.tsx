@@ -43,7 +43,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gradient-primary hover:shadow-glow transition-all duration-300 hover:scale-105"
-            onClick={() => scrollToSection('projects')}
+            onClick={() => scrollToSection('skills')}
           >
             View My Work
           </Button>
