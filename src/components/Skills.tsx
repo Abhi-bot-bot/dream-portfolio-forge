@@ -1,50 +1,50 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { 
-  Code, 
-  Palette, 
-  Database, 
   Cloud, 
-  Smartphone,
+  Server, 
+  Shield, 
+  GitBranch,
+  MonitorSpeaker,
   Settings
 } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
-      icon: Code,
-      title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "SASS"],
+      icon: Cloud,
+      title: "Cloud Platforms",
+      skills: ["AWS", "Azure", "Google Cloud", "CloudFormation", "IAM", "VPC"],
       color: "from-blue-500 to-purple-600"
     },
     {
-      icon: Database,
-      title: "Backend Development", 
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis", "GraphQL"],
+      icon: Server,
+      title: "Infrastructure & Orchestration", 
+      skills: ["Kubernetes", "Docker", "Terraform", "Ansible", "Helm", "EKS"],
       color: "from-green-500 to-emerald-600"
     },
     {
-      icon: Cloud,
-      title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Nginx"],
+      icon: GitBranch,
+      title: "CI/CD & Automation",
+      skills: ["Jenkins", "GitLab CI", "GitHub Actions", "Azure DevOps", "ArgoCD", "Tekton"],
       color: "from-orange-500 to-red-600"
     },
     {
-      icon: Smartphone,
-      title: "Mobile Development",
-      skills: ["React Native", "Flutter", "iOS", "Android", "Progressive Web Apps"],
+      icon: MonitorSpeaker,
+      title: "Monitoring & Observability",
+      skills: ["Prometheus", "Grafana", "ELK Stack", "Datadog", "CloudWatch", "Jaeger"],
       color: "from-pink-500 to-rose-600"
     },
     {
-      icon: Palette,
-      title: "Design & UX",
-      skills: ["Figma", "Adobe XD", "Prototyping", "User Research", "Wireframing"],
+      icon: Shield,
+      title: "Security & Compliance",
+      skills: ["HashiCorp Vault", "SAST/DAST", "RBAC", "Network Security", "Compliance", "Secret Management"],
       color: "from-purple-500 to-indigo-600"
     },
     {
       icon: Settings,
-      title: "Tools & Others",
-      skills: ["Git", "Jest", "Webpack", "Vite", "ESLint", "Agile/Scrum"],
+      title: "Tools & Technologies",
+      skills: ["Linux", "Bash/Python", "Git", "NGINX", "Load Balancers", "Microservices"],
       color: "from-teal-500 to-cyan-600"
     }
   ];
@@ -58,7 +58,7 @@ const Skills = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-primary mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit built through years of experience and continuous learning
+            Cloud infrastructure, automation, and DevOps expertise gained through 4.8 years at PwC
           </p>
         </div>
 
