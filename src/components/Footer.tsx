@@ -10,9 +10,9 @@ const Footer = () => {
           {/* Logo/Name */}
           <div>
             <h3 className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              Alex Johnson
+              Abhiraj Panda
             </h3>
-            <p className="text-muted-foreground text-sm">Full Stack Developer</p>
+            <p className="text-muted-foreground text-sm">Senior DevOps Engineer</p>
           </div>
 
           {/* Social Links */}
@@ -34,7 +34,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="mailto:alex@example.com"
+              href="mailto:abhiraj.panda@example.com"
               className="p-3 rounded-full bg-secondary hover:bg-primary hover:shadow-glow transition-all duration-300 group"
             >
               <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
@@ -45,7 +45,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm flex items-center justify-center space-x-2">
-            <span>&copy; {currentYear} Alex Johnson. Made with</span>
+            <span>&copy; {currentYear} Abhiraj Panda. Made with</span>
             <Heart className="w-4 h-4 text-red-500" />
             <span>and lots of coffee</span>
           </p>

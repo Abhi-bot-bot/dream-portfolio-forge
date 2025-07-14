@@ -39,19 +39,21 @@ const About = () => {
           {/* About Text */}
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With over 5 years of experience in web development, I specialize in creating 
-              modern, responsive applications using cutting-edge technologies. My journey 
-              began with a curiosity about how websites work, and it has evolved into a 
-              passion for crafting digital experiences that matter.
+              With 4.8 years of experience as a Senior DevOps Engineer at PwC, I specialize in 
+              building and maintaining robust cloud infrastructure, CI/CD pipelines, and 
+              automated deployment systems. My journey began with a passion for optimizing 
+              software delivery processes and ensuring system reliability at scale.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I believe in the power of clean, efficient code and user-centered design. 
-              Whether working on a complex enterprise application or a simple landing page, 
-              I approach every project with attention to detail and a commitment to excellence.
+              I believe in the power of automation, infrastructure as code, and continuous 
+              improvement. Whether working on complex enterprise cloud migrations or 
+              streamlining deployment workflows, I approach every challenge with systematic 
+              thinking and a commitment to operational excellence.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing 
-              to open-source projects, or sharing knowledge with the developer community.
+              When I'm not optimizing infrastructure, you can find me exploring new cloud 
+              technologies, contributing to DevOps communities, or mentoring teams on 
+              best practices in automation and system reliability.
             </p>
           </div>
 

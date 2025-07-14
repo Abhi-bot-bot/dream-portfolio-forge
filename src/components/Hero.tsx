@@ -28,14 +28,14 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6 animate-slide-up">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-hero bg-clip-text text-transparent">
-          Alex Johnson
+          Abhiraj Panda
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-          Full Stack Developer
+          Senior DevOps Engineer
         </p>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-          Crafting beautiful, performant web experiences with modern technologies. 
-          Passionate about clean code, user experience, and turning ideas into reality.
+          Building robust, scalable infrastructure and automating deployment pipelines. 
+          4.8 years of experience at PwC, passionate about cloud technologies and DevOps excellence.
         </p>
         
         {/* CTA Buttons */}
@@ -67,7 +67,7 @@ const Hero = () => {
              className="p-3 rounded-full bg-secondary hover:bg-primary hover:shadow-glow transition-all duration-300 group">
             <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform" />
           </a>
-          <a href="mailto:alex@example.com"
+          <a href="mailto:abhiraj.panda@example.com"
              className="p-3 rounded-full bg-secondary hover:bg-primary hover:shadow-glow transition-all duration-300 group">
             <Mail className="w-6 h-6 group-hover:scale-110 transition-transform" />
           </a>
